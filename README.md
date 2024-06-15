@@ -1,6 +1,6 @@
 # Real-Time-Traffic-Monitoring-System
 
-This projects implement a system for tracking objects (likely vehicles) in a highway video. Here's a breakdown of the functionalities and packages used in each file:
+This project implement a system for tracking objects (likely vehicles) in a highway video. Here's a breakdown of the functionalities and packages used in each file:
 
 #### 1. video_capture.py:
 
