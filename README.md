@@ -2,21 +2,21 @@
 
 This project implement a system for tracking objects (likely vehicles) in a highway video. Here's a breakdown of the functionalities and packages used in each file:
 
-#### 1. video_capture.py:
+### 1. video_capture.py:
 
 **Packages:** OpenCV (cv2)
 
 **Task:** This script is to capture video using OpenCV. It reads frames from a specified video file ("highway.mp4") and displays them in a window. It also allows exiting the program by pressing the 'Esc' key (key code 27).
 
 
-#### 2. White_Mask.py:
+### 2. White_Mask.py:
 
 **Packages:** OpenCV (cv2)
 
 **Task:** This script implements background subtraction for object detection. It uses OpenCV's createBackgroundSubtractorMOG2 algorithm to create a background model and then identifies foreground objects (likely vehicles) that deviate from the background in each frame.
 
 
-#### 3. main.py:
+### 3. main.py:
 
 **Packages:** OpenCV (cv2), tracker (custom module)
 
@@ -32,7 +32,7 @@ This project implement a system for tracking objects (likely vehicles) in a high
 - The script displays the original frame, the mask (foreground objects), and a frame with bounding boxes and ID labels for the tracked objects.
 
 
-#### 4. tracker.py:
+### 4. tracker.py:
 
 **Packages:** math
 
